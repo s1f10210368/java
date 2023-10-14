@@ -1,3 +1,4 @@
+package lecture2;
 public class ArraySample {
     public static void main(String[] args) {
         int[] array1 = {1, -2, 3, 4, -5};

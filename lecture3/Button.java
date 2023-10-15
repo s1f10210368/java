@@ -12,7 +12,7 @@ public class Button {
     // 引数を取らないコンストラクタ
     public Button() {
         this.label = "Untitled";
-        this.pressed = false; // pressed の初期値は false
+        this.pressed = false; // pressed の初期値は falseである
     }
 
     // ボタンを押す

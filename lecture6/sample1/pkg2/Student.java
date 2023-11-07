@@ -11,7 +11,14 @@ public class Student extends Member {
     }
 
     @Override
-    public String getProfile() { //getStudentProfile()から変更
+    protected String getEmail() {
+        // ここに実際のメールアドレス生成ロジックを実装する必要があります
+        // 仮の実装例:
+        return id + Member.DOMAIN;
+    }
+
+    @Override
+    public String getProfile() {
         StringBuffer sb = new StringBuffer();
         sb.append("----- Student -----\n");
         sb.append(super.getProfile());
@@ -21,6 +28,8 @@ public class Student extends Member {
 
     @Override
     public boolean canReserveRoom() {
-        return false;
+        // ここに実際の部屋予約の判定ロジックを実装する必要があります
+        // 仮の実装例:
+        return grade >= 10; // 10学年以上の学生は予約可能とする
     }
 }

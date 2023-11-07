@@ -1,7 +1,6 @@
 package sample1.pkg1;
 
-abstract public class Member {
-    // サブクラスから参照される DOMAIN / nameは protected
+public abstract class Member {
     protected static final String DOMAIN = "@iniad.org";
     private String id;
     protected String name;
@@ -11,8 +10,8 @@ abstract public class Member {
         this.name = name;
     }
     
-    // サブクラスでオーバーライドするので protected
-    abstract protected String getEmail();
+    // サブクラスでオーバーライドする抽象メソッド
+    protected abstract String getEmail();
     
     public String getProfile() {
         StringBuffer sb = new StringBuffer(); 
@@ -20,7 +19,7 @@ abstract public class Member {
         sb.append("Name: ").append(name).append("\n");
         String email = getEmail();
         sb.append("email: ").append(email).append("\n");
-        if(canReserveRoom()) {
+        if (canReserveRoom()) {
             sb.append("Room: OK").append("\n");
         } else {
             sb.append("Room: NG").append("\n");
@@ -28,5 +27,6 @@ abstract public class Member {
         return sb.toString();
     }
     
-    abstract public boolean canReserveRoom();
+    public abstract boolean canReserveRoom();
 }
+

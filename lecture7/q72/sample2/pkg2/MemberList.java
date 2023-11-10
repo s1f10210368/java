@@ -2,8 +2,8 @@ package lecture7.q72.sample2.pkg2;
 
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Map;
-import java.util.HashMap;
+/*import java.util.Map;
+import java.util.HashMap;*/
 import lecture7.q72.sample2.pkg1.Member;
 
 public class MemberList {

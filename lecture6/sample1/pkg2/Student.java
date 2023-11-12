@@ -13,7 +13,6 @@ public class Student extends Member {
     @Override
     protected String getEmail() {
         // ここに実際のメールアドレス生成ロジックを実装する必要があります
-        // 仮
         return id + Member.DOMAIN;
     }
 

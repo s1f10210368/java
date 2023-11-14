@@ -1,3 +1,7 @@
+//標準入力からの入力を受付け、空行が入力されるまでに入力された文字列をまとめて表示するクラス InputSample を宣言しなさい。
+
+//文字列の組み立てには、StringBuffer を利用すること。
+
 import java.util.Scanner;
 
 public class InputSample {

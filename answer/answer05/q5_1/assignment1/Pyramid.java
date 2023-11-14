@@ -1,4 +1,4 @@
-package assignment1;
+package q5_1.assignment1;
 
 public class Pyramid extends Figure {
     Pyramid(int height) {
@@ -12,3 +12,6 @@ public class Pyramid extends Figure {
         }
     }
 }
+
+// Pyramid クラス
+// 高さ heigth のピラミッドを、動作例の通りに出力する。

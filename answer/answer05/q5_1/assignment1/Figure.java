@@ -1,4 +1,4 @@
-package assignment1;
+package q5_1.assignment1;
 
 public class Figure {
     final int height;
@@ -13,3 +13,6 @@ public class Figure {
         }
     }
 }
+
+// Figure クラス
+// 高さ heigth の空行を出力する。

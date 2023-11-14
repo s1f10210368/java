@@ -1,3 +1,6 @@
+//整数の配列 array を引数に取り、正の要素の合計を返すメソッド positive
+//文字列の配列 array を引数に取り、奇数番目の要素を順に表するメソッド printOdd
+
 public class ArraySample {
     public static int positive(int[] array) {
         int result = 0;

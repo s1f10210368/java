@@ -19,3 +19,5 @@ public class EngineeringTeacher extends Teacher implements Programmer {
         return true;
     }
 }
+
+Teacher クラスを継承し、Programmer インタフェースを実装した EngineeringTeacher クラスを宣言してください。

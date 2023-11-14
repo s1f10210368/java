@@ -9,3 +9,5 @@ abstract public class Figure {
 
     abstract public void draw();
 }
+
+// 抽象にしたい時には abstract をつける

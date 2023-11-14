@@ -1,3 +1,5 @@
+//0以上10未満の整数をランダムに選び、その長さを半径とした円の面積を表示するクラス Area を宣言しなさい。
+
 import java.util.Random;
 
 public class Area {

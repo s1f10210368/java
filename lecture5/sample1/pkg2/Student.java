@@ -11,6 +11,7 @@ public class Student extends Member {
     }
 
     @Override
+    // これをつけることで継承元のメソッドを上書きすることができる
     public String getProfile() { //getStudentProfile()から変更
         StringBuffer sb = new StringBuffer();
         sb.append("----- Student -----\n");

@@ -14,6 +14,6 @@ public class NameCard {
     }
 
     String getLabel() {
-        return String.format("No. %d: %s %s", id, firstName, familyName);
+        return String.format(" %d: %s %s", id, firstName, familyName);
     }
 }

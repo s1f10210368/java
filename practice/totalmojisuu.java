@@ -9,7 +9,8 @@ public class totalmojisuu {
         int count = 0;
         Scanner scanner = new Scanner(System.in);
         for(;;) { // 無限ループ
-            String str = scanner.nextLine();
+        // ここをnextにすると改行までではなく空白まで呼び出される
+            String str = scanner.nextLine(); // 入力されたものを文字列として返す
             if(str.isEmpty()) {
                 break;
             }

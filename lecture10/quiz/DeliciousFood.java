@@ -1,5 +1,3 @@
-package lecture10.quiz;
-
 public class DeliciousFood extends Item implements Eatable{
     public DeliciousFood(String name, int price) {
         super(name, price);

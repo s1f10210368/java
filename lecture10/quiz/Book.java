@@ -1,5 +1,3 @@
-package lecture10.quiz;
-
 public class Book extends Item {
     public Book(String name, int price) {
         super(name, price);
@@ -9,3 +7,4 @@ public class Book extends Item {
         return (int)(price * 1.1);
     }
 }
+

@@ -1,5 +1,3 @@
-package lecture10.quiz;
-
 public class Main {
     public static void main(String[] args)  {
         DeliciousFood apple = new DeliciousFood("Apple", 100);

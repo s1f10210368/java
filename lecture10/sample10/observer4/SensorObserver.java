@@ -1,4 +1,4 @@
-package sample10.observer4;
+package lecture10.sample10.observer4;
 
 public class SensorObserver implements Observer {
     public SensorObserver() {

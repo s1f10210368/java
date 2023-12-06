@@ -1,4 +1,4 @@
-package sample10.observer4;
+package lecture10.sample10.observer4;
 
 import java.util.Base64;
 import java.io.BufferedReader;

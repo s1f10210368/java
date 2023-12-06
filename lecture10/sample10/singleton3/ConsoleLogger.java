@@ -1,4 +1,4 @@
-package sample10.singleton3;
+package lecture10.sample10.singleton3;
 
 public class ConsoleLogger implements Logger {
     private static ConsoleLogger instance = new ConsoleLogger();

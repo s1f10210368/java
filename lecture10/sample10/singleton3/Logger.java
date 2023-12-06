@@ -1,4 +1,4 @@
-package sample10.singleton3;
+package lecture10.sample10.singleton3;
 
 public interface Logger {
     public void purchase(Customer customer, Item item);

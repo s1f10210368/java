@@ -1,0 +1,98 @@
+# 期末試験採点基準 Final exam scoring criteria
+
+## Question 1
+
+### 1.1 (10点)
+
+- 10点 : 指示の通り動作する。（部分点なし）
+  Works as operation example. (No partial points)
+
+### 1.2.1 (10点)
+
+- 5点 : 採点用テストケースが動作すること。
+  Test cases operate correctly.
+- 1点 : id が protected final であること。
+  The id field is protected final.
+- 1点 : title が protected final であること。
+  The title field is protected final.
+- 1点 : description が protected final であること。
+  The description field is protected final.
+- 1点 : このクラスで宣言されたメソッドが publicであること。
+  The method declared in this class is public.
+- 1点 : コンストラクタが public であること。
+  The constructor is public.
+
+### 1.2.2 (10点)
+
+- 7点 : 採点用テストケースが動作すること。
+  Test cases operate correctly.
+- 1点 : open が private であること。
+  The open field is private.
+- 1点 : このクラスで宣言されたメソッドが publicであること。
+  The method declared in this class is public.
+- 1点 : コンストラクタが public であること。
+  The constructor is public.
+
+### 1.2.3 (10点)
+
+- 8点 : 採点用テストケースが動作すること。
+  Test cases operate correctly.
+- 1点 : このクラスで宣言されたフィールドが privateであること。
+  The field declared in this class is private.
+- 1点 : このクラスで宣言されたメソッドが publicであること。
+  The method declared in this class is public.
+
+## Question 3
+
+### 1.3.1 (10点)
+
+- 6点 : 採点用テストケースが動作すること。
+  Test cases operate correctly.
+- 2点 : getInstance() メソッドが public static であること。
+  The getInstance() method is public static.
+- 2点 : コンストラクタが private であること。
+  The constructor is private.
+
+### 1.3.2 (10点)
+
+- 5点 : enqueueに際して、登録したインスタンスのメソッドが適切に呼び出されること。
+  The method of the registered instance is called properly when calling enqueue.
+- 5点 : dequeueに際して、登録したインスタンスのメソッドが適切に呼び出されること。
+  The method of the registered instance is called properly when calling dequeue.
+
+## Question 2 (12点 : 4点 x 3)
+
+- A : 単体テスト Unit test
+- B : ウォーターフォール開発 Waterfall model
+- C : CI
+
+## Question 3 (12点 : 3点 x 4)
+
+- A : public abstract class AbstractNode
+- B : protected
+- C : public class Leaf extends AbstractNode
+- D : public class Node extends AbstractNode
+
+## Question 4 (12点 : 4点 x 3)
+
+### 4-1
+
+git init
+git add .
+git commit -m "Initial commit."
+
+### 4-2
+
+git branch add-test
+git checkout add-test
+
+### 4-3
+
+git checkout main
+git merge add-test
+
+## Question 5 (12点 : 4点 x 3)
+
+- A : a == 0
+- B : -1
+- C : expected=IllegalArgumentException.class

@@ -1,0 +1,42 @@
+Question 1
+
+- 各Javaファイルを参照 See each Java file
+
+Question 2
+
+- A: アジャイルソフトウェア開発 Agile software development
+- B: スクラム Scrum
+- C: スプリント Sprint
+
+Question 3
+
+- A: public interface Page
+- B: protected
+- C: private
+- D: public class MemberPage extends Member implements Page
+
+Question 4
+
+4-1
+
+git clone https://gitlab.com/bessho/final-exam.git
+
+4-2 
+
+git branch add-function
+git checkout add-function
+
+4-3 
+
+git add .
+git commit -m "Added a function."
+git push origin add-function
+
+Question 5
+
+- A: (a == 0) || (b == 0)
+- B: 8
+- C: 4
+- D: 6
+
+

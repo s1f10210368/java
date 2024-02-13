@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BeverageCase {
-    List<Beverage> beverages = new ArrayList<Beverage>();
+    private List<Beverage> beverages = new ArrayList<Beverage>();
 
     public BeverageCase(){
     }

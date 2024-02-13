@@ -9,3 +9,5 @@ public abstract class Shape {
 
     public abstract double area();
 }
+
+// abstractは抽象メソッドの時につく

@@ -1,7 +1,7 @@
 package refinal1;
 
-import javax.tools.JavaFileManager.Location;
 
+// シングルトン変更
 public class LocationManager {
     private double latitude = 0;
     private double longitude = 0;
